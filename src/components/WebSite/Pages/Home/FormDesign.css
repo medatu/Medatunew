@@ -1,0 +1,121 @@
+.dropdown .selected-value input {
+  background: #fdfdfd url(../../../assets/img/search.png) no-repeat 10px center;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+  font-size: 10px;
+  background-color: #fff;
+  /* border: 1px solid #ccc; */
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  cursor: default;
+  outline: none;
+  padding: 10px 2px 10px 40px;
+  transition: all 200ms ease;
+  width: 16rem;
+  border: 1px solid white;
+}
+.titleDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+}
+.underLineDiv {
+  background: #373b79;
+  height: 10px;
+  width: 60px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.form-design {
+  display: flex;
+}
+.location-search-input {
+  background: #fdfdfd url(../../../assets/img/location.png) no-repeat 10px
+    center;
+  line-height: 1.5;
+  font-size: 10px;
+  background-color: #fdfdfd;
+  /* border: 1px solid #ccc; */
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  cursor: default;
+  outline: none;
+  padding: 10px 52px 10px 40px;
+  transition: all 200ms ease;
+  width: 16rem;
+  margin-left: 96px;
+  border: 1px solid white;
+}
+.underline {
+  height: 8px !important;
+  border-radius: 40px;
+  width: 67px;
+  color: #5a5d8f;
+}
+.banner {
+  height: 260px;
+  width: 80%;
+  margin-left: 30rem;
+  margin-top: -148px;
+  width: 80%;
+  margin-left: 30rem;
+  margin-top: -148px;
+}
+.leftbtn {
+  width: 42px;
+  height: 51px;
+  background-color: #fff;
+  margin: 10px;
+  border: 0px;
+}
+.doctorscol {
+  color: blue;
+  margin: 45px;
+  background-color: #fff;
+  padding: 19px;
+}
+.arrowicon {
+  margin-top: -28px;
+  margin-left: 25rem;
+}
+.main-wrapper {
+  background: #ececec;
+}
+.banner-design {
+  top: 0%;
+  display: flex;
+  /* /* align-items: baseline; */
+}
+.banner-home {
+  padding-top: 11rem;
+  /* background-image: url(img/banner-img.png); */
+  background-color: #b2cde1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0 0 4rem 0;
+  height: 69vh;
+  width: 100vw;
+  left: 120px !important;
+}
+.banner-header h1 {
+  font-size: 2rem !important;
+  color: #09008d !important;
+  font-weight: 200 !important;
+}
+.searchbutton {
+  margin-left: -35px;
+  z-index: 1;
+  border-radius: 26px;
+  background-color: #383e95;
+  width: 98px;
+  color: #ffff;
+  border: 0;
+}
